@@ -1,6 +1,6 @@
 {
   "name": "react-player",
-  "description": "A react component for playing a variety of URLs, including file paths, YouTube, SoundCloud, Streamable, Vidme, Vimeo and Wistia",
+  "description": "A react component for playing a variety of URLs",
   "main": "dist/ReactPlayer.js",
   "authors": [
     "Michael Maio <michael.maio22@gmail.com> (http://github.com/HypeUFO)"
