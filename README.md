@@ -2,7 +2,7 @@ SimpleReactPlayer
 ===========
 
 A react audio component for playing a variety of URLs, including file paths.
-This is a modified version of react player (http://cookpete.com/react-player) for a dj app i built. I stripped down react-player to a basic audio element, but retains the props from the original react-player. I have also added a crossOrigin prop (works with SoundCloud SDK)
+This is a modified version of react player (http://cookpete.com/react-player) for a dj app i built. I stripped down react-player to a basic audio element that retains the props from the original react-player. I have also added a crossOrigin prop (works with SoundCloud SDK)
 
 ### Polyfills
 
@@ -41,6 +41,7 @@ Prop | Description | Default
 `className` | Pass in a `className` to set on the root element
 `style` | Add [inline styles](https://facebook.github.io/react/tips/inline-styles.html) to the root element
 `progressFrequency` | The time between `onProgress` callbacks, in milliseconds | `1000`
+`crossOrigin` | either 'anonymous' or 'use-credentials' | `anonymous`
 
 #### Callback props
 
@@ -60,7 +61,7 @@ Prop | Description
 
 #### Config props
 
-These props allow you to override the parameters for the various players:
+This prop allows you to override the parameters for the player:
 
 Prop | Description
 ---- | -----------
