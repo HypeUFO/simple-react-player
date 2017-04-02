@@ -1,7 +1,7 @@
 {
-  "name": "react-player",
+  "name": "simple-react-player",
   "version": "0.14.3",
-  "description": "A react component for playing a variety of URLs, including file paths, YouTube, SoundCloud, Streamable, Vidme, Vimeo and Wistia",
+  "description": "A react component for playing a variety of URLs",
   "main": "lib/ReactPlayer.js",
   "typings": "index.d.ts",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CookPete/react-player.git"
+    "url": "https://github.com/HypeUFO/simple-react-player.git"
   },
   "keywords": [
     "react",
@@ -36,12 +36,12 @@
     "wistia",
     "react-component"
   ],
-  "author": "Pete Cook <pete@cookpete.com> (http://github.com/cookpete)",
+  "author": "Michael Maio <michael.maio22@gmail.com> (http://github.com/HypeUFO)",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/CookPete/react-player/issues"
+    "url": "https://github.com/HypeUFO/simple-react-player/issues"
   },
-  "homepage": "https://github.com/CookPete/react-player",
+  "homepage": "https://github.com/HypeUFO/simple-react-player",
   "peerDependencies": {
     "react": "*"
   },
